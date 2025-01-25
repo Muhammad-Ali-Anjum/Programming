@@ -14,7 +14,7 @@ function isPrime(number, callback) {
     callback(true, number); // Number is prime
   }
   
-  // Example usage with a callback
+  // callback
   isPrime(17, function (isPrimeResult, number) {
     if (isPrimeResult) {
       console.log(`${number} is a prime number.`);
