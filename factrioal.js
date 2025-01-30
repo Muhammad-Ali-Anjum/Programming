@@ -5,6 +5,6 @@ function factorial(n) {
     return n * factorial(n - 1);
 }
 
-// Example usage
+
 const number = 5;
 console.log(`Factorial of ${number} is:`, factorial(number));
